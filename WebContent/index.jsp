@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style>
-   .green { font-weight:1001; color: green }
+   .green { font-weight:1000; color: green }
 
  </style>
 <script type="text/javascript">
