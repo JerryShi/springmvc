@@ -15,7 +15,7 @@
 $(document).ready(function(){
   $("h1").click(function(event){
   	 $("p").toggle(1000,function(event){
-  		 alert("finish!");
+  		 alert("master");
   	 });
   });
 });
