@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
 <head>
 <%@ page isELIgnored="false"%>
@@ -25,10 +24,15 @@ $(document).ready(function(){
 
 
 </head>
-<body>
-	<h1 id="link">首页面</h1>
-	<a id="link" href="registView.do">进入表单页面</a>
-	<p>12345</p>
-	<p>67890</p>
-</body>
+<frameset rows="15%,*" >
+	<noframes><body>浏览器不支持</body></noframes>
+	<frame src="jsp/top.jsp" name="top"/>
+	
+	<frameset cols="20%,*">
+		<noframes><body>浏览器不支持</body></noframes>
+		<frame src="jsp/left.jsp" name="left"/>
+		<frame src="jsp/center.jsp" name="center"/>
+	</frameset>
+</frameset>
+<body></body>
 </html>
